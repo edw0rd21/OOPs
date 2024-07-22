@@ -1,3 +1,13 @@
+/* this is a log system
+it prints messages to console based on the level of warning and message input by user
+level of warning = Error, Warning, and Info
+Error = treated as lowest level, print "ERROR! (message)"
+Warning  = treated as level above, prints both Error message and Warning Message
+Info - treated as highest level, choosing this level prints only "INFO: (message)", does not print error or warning message. any wrong level name input by user also prints out info
+
+done by making a log class that has the required functionalities*/
+
+
 #include <iostream>
 #include<string.h>
 
